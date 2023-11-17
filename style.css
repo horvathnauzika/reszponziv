@@ -1,0 +1,170 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+main{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+body{
+    width: 90%;
+    max-width: 900px;
+    margin:auto;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+header{
+    border: 1px solid black;
+    padding: 15px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr 1fr;
+    list-style-type: none;
+    gap: 5px;
+    background-color:#D4D4D4;
+    padding: 12px;
+    border: 1px solid black;
+}
+
+li{
+    text-align: center;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #FF0055;
+}
+
+
+img{
+    width: 100%;
+}
+
+div#elso{
+    border: 1px solid black;
+    padding: 7px;
+}
+
+h2{
+    padding: 7px;
+}
+
+section#masodiksection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div#masodik{
+    border: 1px solid black;
+    padding: 3px;
+
+}
+
+div#harmadik{
+    border: 1px solid black;
+    padding: 3px;
+
+}
+
+div#negyedik{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#otodik{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#hatodik{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#hetedik{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#nyolcadik{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#kilencedik{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizedik{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizenegy{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizenketto{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizenharom{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizennegy{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizenot{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizenhat{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+div#tizenhet{
+    border: 1px solid black;
+    padding: 3px;
+}
+
+p{
+    border: 1px solid black;
+    padding: 3px; 
+}
+
+li#uresid{
+    border: none;
+}
+
+
+@media screen and (max-width: 450px) {
+    nav ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    body {
+      width: 100%;
+      font-size: 5vw;
+    }
+    section#masodiksection{
+        grid-template-columns: 1fr;
+    }
+}
